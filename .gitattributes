@@ -3,4 +3,6 @@
 *.psd filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 # 添加其他大文件格式...
+calendar.csv.gz filter=lfs diff=lfs merge=lfs -text
+reviews.csv.gz filter=lfs diff=lfs merge=lfs -text
 *.csv.gz filter=lfs diff=lfs merge=lfs -text
