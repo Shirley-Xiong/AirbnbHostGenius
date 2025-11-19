@@ -219,3 +219,4 @@ generate_market_report <- function(df) {
   return(report)
 }
 
+

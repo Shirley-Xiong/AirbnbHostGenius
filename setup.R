@@ -34,7 +34,6 @@ required_packages <- c(
   "plotly",
   "scales",
   "lubridate",
-  "holidays",
   "stringr",
   "glue",
   "modelr",
@@ -117,4 +116,5 @@ cat("✓ 安装和配置完成!\n")
 cat("📖 查看 README.md 了解更多信息\n")
 cat("════════════════════════════════════════════════════════════════\n")
 cat("\n")
+
 

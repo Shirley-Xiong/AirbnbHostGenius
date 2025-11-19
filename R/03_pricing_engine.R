@@ -3,7 +3,7 @@
 
 library(tidyverse)
 library(lubridate)
-library(holidays)
+
 
 #' 获取基础价格（市场中位数）
 #'
@@ -303,4 +303,5 @@ get_pricing_tips <- function(df, room_type, neighbourhood) {
   
   return(tips)
 }
+
 

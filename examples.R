@@ -9,6 +9,7 @@ source("R/00_load_data.R")
 source("R/01_descriptive_analysis.R")
 source("R/02_predictive_models.R")
 source("R/03_pricing_engine.R")
+source("R/holidays_uk.R")  # add this file per step 2
 
 # ===== 1. 加载和清洗数据 =====
 cat("\n")
@@ -197,4 +198,5 @@ cat("  1. 运行 'shiny::runApp(\"app.R\")' 启动Web应用\n")
 cat("  2. 或在 RStudio 中打开 app.R 并点击 'Run App'\n")
 cat("═══════════════════════════════════════════════════════════════\n")
 cat("\n")
+
 

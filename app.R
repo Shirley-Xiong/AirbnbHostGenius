@@ -13,6 +13,7 @@ source("R/00_load_data.R")
 source("R/01_descriptive_analysis.R")
 source("R/02_predictive_models.R")
 source("R/03_pricing_engine.R")
+source("R/holidays_uk.R")
 
 # ===== 初始化全局数据 =====
 message("🚀 启动Airbnb房东数据分析平台...")
@@ -576,4 +577,5 @@ server <- function(input, output, session) {
 
 # 运行应用
 shinyApp(ui, server)
+
 
